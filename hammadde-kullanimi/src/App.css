@@ -1,0 +1,262 @@
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  background-color: #f8f8f8 !important; /* Very light gray, almost white */
+  margin: 0;
+  padding: 0;
+}
+
+/* Fix for sticky headers in tables */
+th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white !important;
+  font-weight: 700 !important;
+}
+
+/* Style for info icons */
+.chakra-icon {
+  transition: color 0.2s ease;
+}
+
+/* Better card hover effects */
+.chakra-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chakra-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Styled scrollbars */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
+
+/* Fix for popover positioning and sizing */
+.chakra-popover__popper {
+  z-index: 1000 !important;
+}
+
+.chakra-popover__content {
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+/* Improve tab appearance */
+.chakra-tabs__tab {
+  font-weight: 500 !important;
+  transition: all 0.2s ease;
+}
+
+.chakra-tabs__tab:hover {
+  color: #454545 !important;
+}
+
+.chakra-tabs__tab[aria-selected="true"] {
+  font-weight: 600 !important;
+  color: #121212 !important;
+}
+
+/* Give table rows some breathing room */
+.chakra-table td {
+  padding-top: 0.8rem !important;
+  padding-bottom: 0.8rem !important;
+}
+
+/* Make headings more elegant */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.01em;
+}
+
+/* Fix popover table overflow */
+.chakra-popover__body .chakra-table-container {
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+/* Add these styles to your App.css file */
+.chakra-stepper {
+  margin-bottom: 80px !important; /* Increase space below stepper for completion message */
+}
+
+.chakra-step {
+  position: relative;
+}
+
+.chakra-step__title {
+  white-space: nowrap;
+}
+
+/* Fix for completed step message */
+.completion-message {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: max-content;
+  padding-top: 8px;
+}
+
+/* Change cursor style for clickable steps */
+.step-clickable {
+  cursor: pointer !important;
+  opacity: 1 !important;
+}
+
+.step-not-clickable {
+  cursor: not-allowed !important;
+  opacity: 0.6 !important;
+}
+
+/* Ensure the above styles are applied by increasing specificity */
+.chakra-stepper .chakra-step.step-clickable {
+  cursor: pointer !important;
+  opacity: 1 !important;
+}
+
+.chakra-stepper .chakra-step.step-not-clickable {
+  cursor: not-allowed !important;
+  opacity: 0.6 !important;
+}
+
+/* Add these specific styles for the step indicators */
+.chakra-stepper [data-status="complete"] .chakra-step__indicator {
+  background-color: #ecba16 !important;
+  border-color: #ecba16 !important;
+}
+
+.chakra-stepper [data-status="active"] .chakra-step__indicator {
+  background-color: #ecba16 !important;
+  border-color: #ecba16 !important;
+}
+
+/* Update the main heading to use Montserrat font */
+.main-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+/* Add these styles to your App.css */
+
+/* Update the header bar style */
+.header-bar {
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 15px 0; /* Decrease top/bottom padding from 20px to 15px */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: none;
+  margin-bottom: 0; /* Ensure no margin at bottom */
+}
+
+/* Make logo bigger */
+.logo-image {
+  height: 80px; /* Increase from 60px to 80px */
+  width: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Logo container styling to ensure centering */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navigation menu - update text color for light background */
+.nav-menu {
+  display: flex;
+  margin-right: 30px;
+}
+
+.nav-item {
+  margin: 0 15px;
+  color: #333; /* Change from white to dark gray for visibility */
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #ecba16; /* Keep the same hover color */
+}
+
+/* Add this style to reduce space between header and content */
+.main-container {
+  margin-top: 10px; /* Small space between header and content */
+  padding-right: calc(100vw - 100%);
+}
+
+/* Add this to your App.css to force scrollbar to always be present */
+html {
+  overflow-y: scroll;
+}

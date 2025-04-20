@@ -1,0 +1,2408 @@
+[
+  {
+    "date": "2024-12-31",
+    "branch": "İşyeri",
+    "product": "STOK",
+    "amount": 0
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "YEŞİL ELMALI LİMONATA",
+    "amount": 555
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "YEŞİL ELMALI LİMONATA",
+    "amount": 2220
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "YEŞİL ELMALI LİMONATA",
+    "amount": 1110
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ÇAY",
+    "amount": 238201.04
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ÇAY",
+    "amount": 282224.37
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ÇAY",
+    "amount": 167026.99
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "YER FISTIKLI MAZE",
+    "amount": 295
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "YER FISTIKLI MAZE",
+    "amount": 590
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "YER FISTIKLI MAZE",
+    "amount": 590
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "YER FISTIKLI",
+    "amount": 10340
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "YER FISTIKLI",
+    "amount": 7375
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "YER FISTIKLI",
+    "amount": 8260
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "SARMA ÇİFT KİŞİLİK",
+    "amount": 80606.25
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "SARMA ÇİFT KİŞİLİK",
+    "amount": 175322.1
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "SARMA ÇİFT KİŞİLİK",
+    "amount": 138144.96
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "WHITE MOCHA",
+    "amount": 10150
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "WHITE MOCHA",
+    "amount": 9800
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "WHITE MOCHA",
+    "amount": 13107.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "WHITE FRAPPE",
+    "amount": 350
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "WHITE FRAPPE",
+    "amount": 1400
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "WAFFLE",
+    "amount": 22922.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "WAFFLE",
+    "amount": 45125
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "WAFFLE",
+    "amount": 29552.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ÜÇ PEYNİRLİ KRUVASAN",
+    "amount": 5390
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ÜÇ PEYNİRLİ KRUVASAN",
+    "amount": 3920
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ÜÇ PEYNİRLİ KRUVASAN",
+    "amount": 7350
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "TÜRK KAHVESİ",
+    "amount": 89650
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "TÜRK KAHVESİ",
+    "amount": 108165.2
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "TÜRK KAHVESİ",
+    "amount": 104048.94
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "TRİFLE",
+    "amount": 107960.95
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "TRİFLE",
+    "amount": 106291.25
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "TRİFLE",
+    "amount": 58248.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "TOFFEE NUT LATTE",
+    "amount": 9240
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "TOFFEE NUT LATTE",
+    "amount": 6270
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "TOFFEE NUT LATTE",
+    "amount": 5775
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ŞEF.GR.CH.TOH.ÇAY",
+    "amount": 555
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ŞEF.GR.CH.TOH.ÇAY",
+    "amount": 2220
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ŞEF.GR.CH.TOH.ÇAY",
+    "amount": 1295
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "SU-SOĞUK",
+    "amount": 6931
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "SU-SOĞUK",
+    "amount": 7200
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "SU-SOĞUK",
+    "amount": 9050
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "SUMATRA",
+    "amount": 405
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "SUMATRA",
+    "amount": 405
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "SU-ILIK",
+    "amount": 42178
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "SU-ILIK",
+    "amount": 37670
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "SU-ILIK",
+    "amount": 50869.01
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "SUFLE",
+    "amount": 12800
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "SUFLE",
+    "amount": 20800
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "SUFLE",
+    "amount": 29760
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "STRAWBERRY MOCHA",
+    "amount": 1575
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "STRAWBERRY MOCHA",
+    "amount": 2450
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "STRAWBERRY MOCHA",
+    "amount": 2275
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "SOĞUK CHAİ TEA LATTE",
+    "amount": 555
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "SOĞUK CHAİ TEA LATTE",
+    "amount": 1850
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "SOĞUK CHAİ TEA LATTE",
+    "amount": 925
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "SODA LİMON",
+    "amount": 3120
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "SODA LİMON",
+    "amount": 2368
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "SODA LİMON",
+    "amount": 3280
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "SODA",
+    "amount": 7700
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "SODA",
+    "amount": 7770
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "SODA",
+    "amount": 8119.92
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "SİYAH SICAK ÇİKOLATA",
+    "amount": 23587.2
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "SİYAH SICAK ÇİKOLATA",
+    "amount": 38181
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "SİYAH SICAK ÇİKOLATA",
+    "amount": 28470
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "SİYAH ÇİKOLATA KUTU 21Lİ",
+    "amount": 0
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "SİYAH ÇİKOLATA KUTU 21Lİ",
+    "amount": 1190
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "SİYAH ÇİKOLATA KUTU 21Lİ",
+    "amount": 595
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "SICAK SÜT",
+    "amount": 400
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "SICAK SÜT",
+    "amount": 372
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "SICAK SÜT",
+    "amount": 80
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "SAHLEP",
+    "amount": 24139.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "SAHLEP",
+    "amount": 37983
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "SAHLEP",
+    "amount": 26730
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "FİLTRE KAHVE SADE",
+    "amount": 50220
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "FİLTRE KAHVE SADE",
+    "amount": 27270
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "FİLTRE KAHVE SADE",
+    "amount": 44415
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "PURO ÇİKOLATA KUTUSU",
+    "amount": 990
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "PURO ÇİKOLATA KUTUSU",
+    "amount": 396
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "PORTAKAL SUYU",
+    "amount": 740
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "PORTAKAL SUYU",
+    "amount": 5666.55
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "PORTAKAL SUYU",
+    "amount": 2590
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "PORSİYON DONDURMA",
+    "amount": 1380
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "PORSİYON DONDURMA",
+    "amount": 920
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "PORSİYON DONDURMA",
+    "amount": 1380
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "PLATONİK",
+    "amount": 13865
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "PLATONİK",
+    "amount": 19175
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "PLATONİK",
+    "amount": 12685
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "PINK BUBBLE",
+    "amount": 2035
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "PINK BUBBLE",
+    "amount": 740
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "PINK BUBBLE",
+    "amount": 2035
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "PERSONEL SU",
+    "amount": 20
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "PERSONEL SU",
+    "amount": 0
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "NEFİN",
+    "amount": 9295
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "MELANKOLİK",
+    "amount": 51309
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "MELANKOLİK",
+    "amount": 31966
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "MEFTUN",
+    "amount": 48130
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "MEFTUN",
+    "amount": 34529.96
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "MEFTUN",
+    "amount": 57852
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "MAŞUK",
+    "amount": 74307
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "MAŞUK",
+    "amount": 88152
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "MAŞUK",
+    "amount": 65778
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "KAVANOZ",
+    "amount": 268.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "KAVANOZ",
+    "amount": 255
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "KAVANOZ",
+    "amount": 225
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "DİVANE",
+    "amount": 100806.2
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "DİVANE",
+    "amount": 159316
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "DİVANE",
+    "amount": 76743
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "SARMA TEK KİŞİLİK",
+    "amount": 288737.25
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "SARMA TEK KİŞİLİK",
+    "amount": 245134.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "SARMA TEK KİŞİLİK",
+    "amount": 182855.25
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ANTEP FISTIKLI",
+    "amount": 10749
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ANTEP FISTIKLI",
+    "amount": 7085
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "NEFİN",
+    "amount": 12640
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "NEFİN",
+    "amount": 18240
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "NARLI.NANE.ÇAY",
+    "amount": 1295
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "NARLI.NANE.ÇAY",
+    "amount": 1110
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "NARLI.NANE.ÇAY",
+    "amount": 1443
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "NANE LİMON",
+    "amount": 540
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "NANE LİMON",
+    "amount": 2565
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "NANE LİMON",
+    "amount": 1755
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "MUZLU MAYDONOZLU LİMONATA",
+    "amount": 555
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "MUZLU MAYDONOZLU LİMONATA",
+    "amount": 1110
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "RED VELVET MUFFIN",
+    "amount": 1575
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "RED VELVET MUFFIN",
+    "amount": 1575
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "RED VELVET MUFFIN",
+    "amount": 350
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "KARAMELLİ MUFFIN",
+    "amount": 2275
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "KARAMELLİ MUFFIN",
+    "amount": 1225
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "KARAMELLİ MUFFIN",
+    "amount": 700
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ÇİKOLATALI MUFFIN",
+    "amount": 2625
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ÇİKOLATALI MUFFIN",
+    "amount": 1925
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ÇİKOLATALI MUFFIN",
+    "amount": 2625
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "MİNİ MAŞUK",
+    "amount": 23517
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "MİNİ MAŞUK",
+    "amount": 34528
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "MİNİ MAŞUK",
+    "amount": 21476
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "VANİLYALI MİLKSHAKE",
+    "amount": 1900
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "VANİLYALI MİLKSHAKE",
+    "amount": 1710
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "VANİLYALI MİLKSHAKE",
+    "amount": 2850
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "MUZLU MİLKSHAKE",
+    "amount": 1330
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "MUZLU MİLKSHAKE",
+    "amount": 1134.88
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "MUZLU MİLKSHAKE",
+    "amount": 2090
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ÇİLEKLİ MİLKSHAKE",
+    "amount": 4554.67
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ÇİLEKLİ MİLKSHAKE",
+    "amount": 6270
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ÇİLEKLİ MİLKSHAKE",
+    "amount": 4370
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ÇİKOLATALI MİLKSHAKE",
+    "amount": 3990
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ÇİKOLATALI MİLKSHAKE",
+    "amount": 4940
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ÇİKOLATALI MİLKSHAKE",
+    "amount": 9310
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "COOKİE MİLKSHAKE",
+    "amount": 1755
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "COOKİE MİLKSHAKE",
+    "amount": 2145
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "COOKİE MİLKSHAKE",
+    "amount": 3510
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "MEYVELİ",
+    "amount": 2880
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "MEYVE TABAĞI",
+    "amount": 540
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "MEYVE TABAĞI",
+    "amount": 540
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "MEYVE TABAĞI",
+    "amount": 540
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "MELİSA",
+    "amount": 540
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "MELİSA",
+    "amount": 135
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "MELİSA",
+    "amount": 405
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "MELANKOLİK",
+    "amount": 28672
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "MANGO SOĞUK ÇAY",
+    "amount": 185
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "MANGO SOĞUK ÇAY",
+    "amount": 185
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "MANGO SOĞUK ÇAY",
+    "amount": 925
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "LOTUSLU CHEESECAKE",
+    "amount": 10915
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "LOTUSLU CHEESECAKE",
+    "amount": 15635
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "LOTUSLU CHEESECAKE",
+    "amount": 12685
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "LİMONLU CHEESECAKE",
+    "amount": 5605
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "LİMONLU CHEESECAKE",
+    "amount": 6460.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "LİMONLU CHEESECAKE",
+    "amount": 7965
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "LİMONATA",
+    "amount": 4025
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "LİMONATA",
+    "amount": 5775
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "LİMONATA",
+    "amount": 9275
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "LATTE MACCHİATO",
+    "amount": 7905
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "LATTE MACCHİATO",
+    "amount": 6665
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "LATTE MACCHİATO",
+    "amount": 8370
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "KÜÇÜK KUTU ÇİKOLATA",
+    "amount": 1770
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "KÜÇÜK KUTU ÇİKOLATA",
+    "amount": 590
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "KÜÇÜK KUTU ÇİKOLATA",
+    "amount": 2655
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "KUŞBURNU",
+    "amount": 270
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "KUŞBURNU",
+    "amount": 1890
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "KUŞBURNU",
+    "amount": 270
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "KRUVASAN SADE",
+    "amount": 4095
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "KRUVASAN SADE",
+    "amount": 975
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "KRUVASAN SADE",
+    "amount": 4875
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "KRUVASAN ÇİKOLATALI",
+    "amount": 6519
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "KRUVASAN ÇİKOLATALI",
+    "amount": 6890
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "KRUVASAN ÇİKOLATALI",
+    "amount": 7950
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "KENYA",
+    "amount": 135
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "KARPUZ SOĞUK ÇAY",
+    "amount": 185
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "KARPUZLU LİMONATA",
+    "amount": 185
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "KARAMELLİ",
+    "amount": 1280
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "KARAMELLİ",
+    "amount": 960
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "KARAMELLİ",
+    "amount": 1600
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "İKRAMLIK MADLEN KUTU",
+    "amount": 895
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ISPANAKLI BÖREK",
+    "amount": 360
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ISPANAKLI BÖREK",
+    "amount": 90
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ISPANAKLI BÖREK",
+    "amount": 2412
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "IHLAMUR",
+    "amount": 2430
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "IHLAMUR",
+    "amount": 2700
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "IHLAMUR",
+    "amount": 2970
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ICE WHİTE MOCHA",
+    "amount": 4550
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ICE WHİTE MOCHA",
+    "amount": 4550
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ICE WHİTE MOCHA",
+    "amount": 2800
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ICE LATTE",
+    "amount": 17358
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ICE LATTE",
+    "amount": 10560
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ICE LATTE",
+    "amount": 8910
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ICE DARK MOCHA",
+    "amount": 350
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ICE DARK MOCHA",
+    "amount": 525
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ICE DARK MOCHA",
+    "amount": 700
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ICE CAPPUCCINO",
+    "amount": 330
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ICE AMERİCANO",
+    "amount": 10320
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ICE AMERİCANO",
+    "amount": 6435
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ICE AMERİCANO",
+    "amount": 3751.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "HOT MONKEY",
+    "amount": 330
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "HOT MONKEY",
+    "amount": 2145
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "HOT MONKEY",
+    "amount": 2970
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "HİNDİSTAN CEVİZİ SÜTÜ İLE",
+    "amount": 0
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "HİNDİSTAN CEVİZİ SÜTÜ İLE",
+    "amount": 110
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "HAZELNUT",
+    "amount": 145
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "FRESH LIME",
+    "amount": 555
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "FRESH LIME",
+    "amount": 925
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "FRESH LIME",
+    "amount": 740
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "FRAMBUAZLI MAZE",
+    "amount": 1770
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "FRAMBUAZLI MAZE",
+    "amount": 2655
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "FRAMBUAZLI MAZE",
+    "amount": 3245
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "FRAMBUAZLI CHEESECAKE",
+    "amount": 4720
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "FRAMBUAZLI CHEESECAKE",
+    "amount": 4572.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "FRAMBUAZLI CHEESECAKE",
+    "amount": 5900
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "FLAT WHİTE",
+    "amount": 5921
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "FLAT WHİTE",
+    "amount": 22476
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "FLAT WHİTE",
+    "amount": 15035
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "FİNCAN ÇAY",
+    "amount": 6300
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "FİNCAN ÇAY",
+    "amount": 5600
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "FİNCAN ÇAY",
+    "amount": 15300
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ETHIOPIA",
+    "amount": 270
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ETHIOPIA",
+    "amount": 540
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ESPRESSO MACCHİATO",
+    "amount": 500
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ESPRESSO MACCHİATO",
+    "amount": 250
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ESPRESSO MACCHİATO",
+    "amount": 750
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ESPRESSO",
+    "amount": 690
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ESPRESSO",
+    "amount": 805
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ESPRESSO",
+    "amount": 1840
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "YARIM POT ÇİKOLATA",
+    "amount": 936
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "YARIM POT ÇİKOLATA",
+    "amount": 384
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "YARIM POT ÇİKOLATA",
+    "amount": 768
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "EKSTRA ŞURUP",
+    "amount": 675
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "EKSTRA ŞURUP",
+    "amount": 500
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "EKSTRA ŞURUP",
+    "amount": 875
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "EXT ŞANTİ",
+    "amount": 30
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "EXT ŞANTİ",
+    "amount": 60
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "EKSTRA SHOT",
+    "amount": 882
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "EKSTRA SHOT",
+    "amount": 666
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "EKSTRA SHOT",
+    "amount": 790
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "EKSTRA PANKEK(6ADET)",
+    "amount": 165
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "EKSTRA MARSHMALLOW",
+    "amount": 165
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "EKSTRA MARSHMALLOW",
+    "amount": 110
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "EKSTRA MARSHMALLOW",
+    "amount": 165
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "EKSTRA COOKİE 1ADET(30GR)",
+    "amount": 70
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "BİR POT ÇİKOLATA",
+    "amount": 3328
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "BİR POT ÇİKOLATA",
+    "amount": 880
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "BİR POT ÇİKOLATA",
+    "amount": 2016
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "DUBAİ TATLISI",
+    "amount": 24490
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "DUBAİ TATLISI",
+    "amount": 20816.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "DUBAİ TATLISI",
+    "amount": 25635.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "DUBAİ PURO ÇİKOLATA",
+    "amount": 0
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "DUBAİ PURO ÇİKOLATA",
+    "amount": 0
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "DUBAI ÇİKOLATASI TABLET 200GR",
+    "amount": 650
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "DUBAI ÇİKOLATASI TABLET 200GR",
+    "amount": 650
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "DUBAI ÇİKOLATASI TABLET 200GR",
+    "amount": 5200
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "DUBAI ÇİKOLATASI 100GR",
+    "amount": 1218.75
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "DUBAI ÇİKOLATASI 100GR",
+    "amount": 5174
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "DUBAI ÇİKOLATASI 100GR",
+    "amount": 2879.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "DOUBLE TÜRK KAHVESİ",
+    "amount": 9096.23
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "DOUBLE TÜRK KAHVESİ",
+    "amount": 5404
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "DOUBLE TÜRK KAHVESİ",
+    "amount": 7000
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "DOUBLE ESPRESSO",
+    "amount": 4205
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "DOUBLE ESPRESSO",
+    "amount": 2030
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "DOUBLE ESPRESSO",
+    "amount": 580
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "DİBEK KAHVESİ",
+    "amount": 2965
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "DİBEK KAHVESİ",
+    "amount": 5295
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "DOUBLE DAMLA SAKIZLI",
+    "amount": 145
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "TOP DONDURMA",
+    "amount": 2000
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "TOP DONDURMA",
+    "amount": 3040
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "TOP DONDURMA",
+    "amount": 1840
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "DİBEK KAHVESİ",
+    "amount": 1035
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "DARK MOCHA",
+    "amount": 6300
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "DARK MOCHA",
+    "amount": 8050
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "DARK MOCHA",
+    "amount": 4900
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "DARK FRAPPE",
+    "amount": 875
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "DARK FRAPPE",
+    "amount": 875
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "DAMLA SAKIZLI TÜRK KAHVESİ",
+    "amount": 4255
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "DAMLA SAKIZLI TÜRK KAHVESİ",
+    "amount": 4715
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "DAMLA SAKIZLI TÜRK KAHVESİ",
+    "amount": 4600
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ÇİLEKLİ LİMONATA",
+    "amount": 2590
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ÇİLEKLİ LİMONATA",
+    "amount": 3145
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ÇİLEKLİ LİMONATA",
+    "amount": 3700
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ÇİKOLATALI CHEESECAKE",
+    "amount": 9145
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ÇİKOLATALI CHEESECAKE",
+    "amount": 12980
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ÇİKOLATALI CHEESECAKE",
+    "amount": 10750.7
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ÇİKOLATALI",
+    "amount": 1970
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ÇİKOLATALI",
+    "amount": 1650
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ÇİKOLATALI",
+    "amount": 3033
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ÇİKOLATA TABAĞI 100GR",
+    "amount": 18662.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ÇİKOLATA TABAĞI 100GR",
+    "amount": 14517.51
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ÇİKOLATA TABAĞI 100GR",
+    "amount": 20232
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ÇARKIFELEK LİMONATA",
+    "amount": 925
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ÇARKIFELEK LİMONATA",
+    "amount": 1295
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ÇARKIFELEK LİMONATA",
+    "amount": 740
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "COSTARİCA",
+    "amount": 270
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "COSTARİCA",
+    "amount": 270
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "CORTADO",
+    "amount": 11745
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "CORTADO",
+    "amount": 4205
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "CORTADO",
+    "amount": 13050
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "YER FISTIKLI COOKIE",
+    "amount": 330
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "YER FISTIKLI COOKIE",
+    "amount": 1650
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "YER FISTIKLI COOKIE",
+    "amount": 1155
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "SADE COOKIE",
+    "amount": 990
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "SADE COOKIE",
+    "amount": 1155
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "SADE COOKIE",
+    "amount": 990
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "RED COOKIE",
+    "amount": 247.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "RED COOKIE",
+    "amount": 1815
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "RED COOKIE",
+    "amount": 1320
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ÇİKOLATALI COOKIE",
+    "amount": 2805
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ÇİKOLATALI COOKIE",
+    "amount": 5115
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ÇİKOLATALI COOKIE",
+    "amount": 5610
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "COLOMBİA",
+    "amount": 270
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "COLOMBİA",
+    "amount": 675
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "COLD BREW",
+    "amount": 0
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "COLD BREW",
+    "amount": 1400
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "CHOCOLATE RASPBERRY",
+    "amount": 145
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "8 KİŞİLİK PASTA",
+    "amount": 3735
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "4 KİŞİLİK PASTA",
+    "amount": 865
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "4 KİŞİLİK PASTA",
+    "amount": 1730
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "CHOCOLABS KRUVASAN",
+    "amount": 19264
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "CHOCOLABS KRUVASAN",
+    "amount": 13760
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "CHOCOLABS KRUVASAN",
+    "amount": 30080
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "CHAI TEA LATTE",
+    "amount": 2325
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "CHAI TEA LATTE",
+    "amount": 2170
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "CHAI TEA LATTE",
+    "amount": 4030
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "CAPPUCCİNO",
+    "amount": 11935
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "CAPPUCCİNO",
+    "amount": 22630
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "CAPPUCCİNO",
+    "amount": 19561
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "LATTE",
+    "amount": 34766.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "LATTE",
+    "amount": 83699.83
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "LATTE",
+    "amount": 67363
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "BÜYÜK KUTU ÇİKOLATA",
+    "amount": 9776
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "BÜYÜK KUTU ÇİKOLATA",
+    "amount": 3290
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "BÜYÜK KUTU ÇİKOLATA",
+    "amount": 3290
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "BÜYÜK BOY F.FARKI",
+    "amount": 0
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "BUTTERSCOTCH",
+    "amount": 555
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "BUTTERSCOTCH",
+    "amount": 1480
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "BUTTERSCOTCH",
+    "amount": 1110
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "BUBBLE MANGO",
+    "amount": 370
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "BUBBLE MANGO",
+    "amount": 1850
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "BUBBLE MANGO",
+    "amount": 1942.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "BUBBLE KARPUZ",
+    "amount": 185
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "BUBBLE KARPUZ",
+    "amount": 740
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "BUBBLE KARPUZ",
+    "amount": 370
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "BUBBLE ELMA",
+    "amount": 1110
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "BUBBLE ELMA",
+    "amount": 370
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "BUBBLE ELMA",
+    "amount": 740
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "BÖĞÜRTLEN LİMONATA",
+    "amount": 925
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "BÖĞÜRTLEN LİMONATA",
+    "amount": 185
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "BLUEBERRY BUBBLE LİMONATA",
+    "amount": 1110
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "BLUEBERRY BUBBLE LİMONATA",
+    "amount": 370
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "BLUEBERRY BUBBLE LİMONATA",
+    "amount": 740
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "BLUE BUBBLE",
+    "amount": 1110
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "BLUE BUBBLE",
+    "amount": 1480
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "BLUE BUBBLE",
+    "amount": 2220
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "BEYAZ SICAK ÇİKOLATA",
+    "amount": 6435
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "BEYAZ SICAK ÇİKOLATA",
+    "amount": 5850
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "BEYAZ SICAK ÇİKOLATA",
+    "amount": 1755
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "BEYAZ ÇİKOLATA KUTUSU",
+    "amount": 2550
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "BEYAZ ÇİKOLATA KUTUSU",
+    "amount": 6800
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "BEYAZ ÇİKOLATA KUTUSU",
+    "amount": 5100
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "BANANA MOCHA",
+    "amount": 875
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "BANANA MOCHA",
+    "amount": 2625
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "BANANA MOCHA",
+    "amount": 1750
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "BAL İLE",
+    "amount": 300
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "BAL İLE",
+    "amount": 330
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "BAHARATLI LİMONATA",
+    "amount": 370
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "BADEM SÜTÜ İLE",
+    "amount": 330
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "BADEM SÜTÜ İLE",
+    "amount": 935
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "BADEM SÜTÜ İLE",
+    "amount": 1540
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ATEŞPARE",
+    "amount": 36131.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ATEŞPARE",
+    "amount": 16510
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ATEŞPARE",
+    "amount": 32385
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "AROMALI LATTE",
+    "amount": 16500
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "AROMALI LATTE",
+    "amount": 11490.6
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "AROMALI LATTE",
+    "amount": 14190
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "ANTEP FISTIKLI MAZE",
+    "amount": 2360
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ANTEP FISTIKLI MAZE",
+    "amount": 3982.5
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "ANTEP FISTIKLI MAZE",
+    "amount": 5015
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "ANTEP FISTIKLI",
+    "amount": 11520
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "AMERİCANO",
+    "amount": 34108.35
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "AMERİCANO",
+    "amount": 56405
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "AMERİCANO",
+    "amount": 81055
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "AFFOGATO",
+    "amount": 390
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "AFFOGATO",
+    "amount": 2340
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "AFFOGATO",
+    "amount": 1560
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "AYDIN",
+    "product": "5 SEBZELİ FRANSIZ BÖREĞİ",
+    "amount": 1260
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR MAVİBAHÇE",
+    "product": "5 SEBZELİ FRANSIZ BÖREĞİ",
+    "amount": 2430
+  },
+  {
+    "date": "2024-12-31",
+    "branch": "İZMİR_ALSANCAK",
+    "product": "5 SEBZELİ FRANSIZ BÖREĞİ",
+    "amount": 270
+  }
+]

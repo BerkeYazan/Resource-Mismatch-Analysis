@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sales Filter Tool</title>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      const { useState } = React;
+
+      const SalesFilterTool = () => {
+        const [data, setData] = useState([]);
+        const [loading, setLoading] = useState(false);
+        const [error, setError] = useState("");
+        const [fileName, setFileName] = useState("");
+
+        const processFile = (e) => {
+          const file = e.target.files[0];
+          if (!file) return;
+
+          setLoading(true);
+          setError("");
+          setFileName(file.name);
+
+          const reader = new FileReader();
+
+          reader.onload = (event) => {
+            try {
+              const binaryString = event.target.result;
+              const workbook = XLSX.read(binaryString, {
+                type: "binary",
+                cellDates: true,
+                dateNF: "yyyy-mm-dd",
+              });
+
+              const firstSheetName = workbook.SheetNames[0];
+              const worksheet = workbook.Sheets[firstSheetName];
+
+              // Convert to JSON
+              const jsonData = XLSX.utils.sheet_to_json(worksheet, {
+                raw: true,
+              });
+
+              // Filter data for January 2025 and specific branches
+              const targetBranches = [
+                "CHL AYDIN",
+                "CHL IZMIR ALSANCAK",
+                "CHL IZMIR MAVIBAHCE",
+              ];
+
+              // We need to find the date and branch column names
+              // First, get a sample row to check column names
+              if (jsonData.length === 0) {
+                setError("No data found in the Excel file");
+                setLoading(false);
+                return;
+              }
+
+              const sampleRow = jsonData[0];
+              const columnNames = Object.keys(sampleRow);
+
+              // Try to identify date and branch columns
+              let dateColumn = null;
+              let branchColumn = null;
+
+              // Use specified column structure from the file
+              // B column has dates with title "invoice date" in B1
+              // D column has branches with title "cust-desc" in D1
+
+              for (const colName of columnNames) {
+                const lowerColName = colName.toLowerCase();
+                // Find date column - typically "invoice date" in column B
+                if (
+                  lowerColName.includes("invoice") &&
+                  lowerColName.includes("date")
+                ) {
+                  dateColumn = colName;
+                }
+
+                // Find branch column - "cust-desc" in column D
+                if (
+                  lowerColName === "cust-desc" ||
+                  (lowerColName.includes("cust") &&
+                    lowerColName.includes("desc"))
+                ) {
+                  branchColumn = colName;
+                }
+
+                // As fallback, check if column contains date values
+                if (!dateColumn && sampleRow[colName] instanceof Date) {
+                  dateColumn = colName;
+                }
+              }
+
+              // If we still haven't found the columns, try to use column names that match Excel's pattern (e.g., __EMPTY_1, __EMPTY_3)
+              if (!dateColumn) {
+                // Column B might be represented as __EMPTY_1
+                const possibleBColumn = columnNames.find((col) =>
+                  col.includes("__EMPTY_1")
+                );
+                if (possibleBColumn) {
+                  dateColumn = possibleBColumn;
+                }
+              }
+
+              if (!branchColumn) {
+                // Column D might be represented as __EMPTY_3
+                const possibleDColumn = columnNames.find((col) =>
+                  col.includes("__EMPTY_3")
+                );
+                if (possibleDColumn) {
+                  branchColumn = possibleDColumn;
+                }
+              }
+
+              if (!dateColumn) {
+                setError("Could not identify date column in the Excel file");
+                setLoading(false);
+                return;
+              }
+
+              if (!branchColumn) {
+                setError("Could not identify branch column in the Excel file");
+                setLoading(false);
+                return;
+              }
+
+              // Filter data based on identified columns
+              const filteredData = jsonData.filter((row) => {
+                let rowDate = row[dateColumn];
+
+                // If the date is not already a Date object, try to convert it
+                if (!(rowDate instanceof Date)) {
+                  if (typeof rowDate === "number") {
+                    // Excel serial date
+                    rowDate = XLSX.SSF.parse_date_code(rowDate);
+                  } else if (typeof rowDate === "string") {
+                    // Try to parse string date
+                    rowDate = new Date(rowDate);
+                  }
+                }
+
+                // Check if we have a valid date
+                if (isNaN(rowDate) || !rowDate) return false;
+
+                // Check if date is within January 2025
+                const isJanuary2025 =
+                  rowDate.getFullYear() === 2025 && rowDate.getMonth() === 0; // 0 = January
+
+                // Check if branch is one of the target branches
+                const branch = row[branchColumn];
+                const isTargetBranch =
+                  branch &&
+                  targetBranches.some((targetBranch) => {
+                    const branchStr = branch.toString().toLowerCase();
+                    const targetLower = targetBranch.toLowerCase();
+                    return (
+                      branchStr === targetLower ||
+                      branchStr.includes(targetLower)
+                    );
+                  });
+
+                // For debugging
+                if (isJanuary2025 && !isTargetBranch && branch) {
+                  console.log(
+                    "Found January 2025 row but branch not matched:",
+                    branch
+                  );
+                }
+
+                return isJanuary2025 && isTargetBranch;
+              });
+
+              setData(filteredData);
+              setLoading(false);
+            } catch (err) {
+              console.error("Error processing Excel file:", err);
+              setError("Failed to process the Excel file: " + err.message);
+              setLoading(false);
+            }
+          };
+
+          reader.onerror = () => {
+            setError("Failed to read the file");
+            setLoading(false);
+          };
+
+          reader.readAsBinaryString(file);
+        };
+
+        const exportToExcel = () => {
+          if (data.length === 0) return;
+
+          // Create a new workbook and add the filtered data
+          const workbook = XLSX.utils.book_new();
+          const worksheet = XLSX.utils.json_to_sheet(data);
+
+          // Add the worksheet to the workbook
+          XLSX.utils.book_append_sheet(workbook, worksheet, "Filtered_Data");
+
+          // Generate Excel file and download
+          const fileName = "January_2025_Filtered_Sales_Data.xlsx";
+          XLSX.writeFile(workbook, fileName);
+        };
+
+        return (
+          <div className="p-6">
+            <h1 className="text-xl font-bold mb-4">Sales Data Filter</h1>
+            <p className="mb-4">
+              Upload your Excel file to filter sales data for January 2025 from
+              branches: CHL AYDIN, CHL IZMIR ALSANCAK, and CHL IZMIR MAVIBAHCE
+            </p>
+            <p className="mb-4 text-sm text-gray-700">
+              <strong>Note:</strong> This tool has been updated to look for
+              "invoice date" in column B and "cust-desc" in column D based on
+              your file structure.
+            </p>
+
+            <div className="mb-6">
+              <input
+                type="file"
+                accept=".xlsx, .xls"
+                onChange={processFile}
+                className="block w-full text-sm mb-2 file:mr-4 file:py-2 file:px-4 file:rounded file:border-0 file:text-sm file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
+              />
+              {fileName && (
+                <p className="text-sm text-gray-600">File: {fileName}</p>
+              )}
+            </div>
+
+            {loading && (
+              <div className="text-center py-4">
+                <p>Processing data...</p>
+              </div>
+            )}
+
+            {error && (
+              <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">
+                <p>{error}</p>
+              </div>
+            )}
+
+            {data.length > 0 && (
+              <div>
+                <div className="flex justify-between items-center mb-4">
+                  <h2 className="text-lg font-semibold">
+                    Filtered Results: {data.length} rows
+                  </h2>
+                  <button
+                    onClick={exportToExcel}
+                    className="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded"
+                  >
+                    Export to Excel
+                  </button>
+                </div>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full bg-white border">
+                    <thead>
+                      <tr className="bg-gray-100">
+                        {Object.keys(data[0]).map((header, index) => (
+                          <th
+                            key={index}
+                            className="py-2 px-4 border text-left"
+                          >
+                            {header}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {data.slice(0, 50).map((row, rowIndex) => (
+                        <tr
+                          key={rowIndex}
+                          className={rowIndex % 2 ? "bg-gray-50" : ""}
+                        >
+                          {Object.keys(data[0]).map((cell, cellIndex) => (
+                            <td key={cellIndex} className="py-2 px-4 border">
+                              {typeof row[cell] === "object" &&
+                              row[cell] instanceof Date
+                                ? row[cell].toLocaleDateString()
+                                : row[cell]?.toString()}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+
+                {data.length > 50 && (
+                  <p className="text-sm text-gray-600 mt-2">
+                    Showing first 50 rows. Export to Excel to view all{" "}
+                    {data.length} rows.
+                  </p>
+                )}
+              </div>
+            )}
+          </div>
+        );
+      };
+
+      // Render the app
+      ReactDOM.render(<SalesFilterTool />, document.getElementById("root"));
+    </script>
+  </body>
+</html>
